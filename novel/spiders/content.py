@@ -1,5 +1,6 @@
 from scrapy import Request
 from scrapy.spiders import Spider
+from novel.items import NovelItem
 import yagmail
 
 
@@ -21,7 +22,7 @@ class contentSpider(Spider):
         fw.close()
         self.sendUpdate(title)
         #发送邮件
-        item = chapterItem()
+        item = NovelItem()
         item["title"] = title
         item["content"] = content
         yield item
