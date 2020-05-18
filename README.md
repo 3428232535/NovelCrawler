@@ -2,8 +2,8 @@
 ### @author: HB_LW
 ### **项目链接**
 
-- 码云gitee:
-- github:
+- 码云gitee:[https://gitee.com/Liao_Wang/NovelCrawler](http://)
+- github:[https://github.com/3428232535/NovelCrawler](http://)
 
 ---
 
